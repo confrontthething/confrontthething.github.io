@@ -306,3 +306,7 @@ a {
 .top-spacing {
   margin-top: 1em;
 }
+
+.top-big-spacing {
+  margin-top: 2em;
+}
