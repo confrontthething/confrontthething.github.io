@@ -57,16 +57,15 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #7C0A02, #CE2029); }
+  background-color: rgba(0, 112, 184, 1); }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem 2rem 6rem; } }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 3rem 4rem 2rem 4rem; } }
 
 @media screen and (max-width: 48em) {
   .page-header {
@@ -230,7 +229,6 @@ a {
 .site-footer {
   text-align: center;
   padding: 2rem;
-  margin-top: 2rem;
   background-color: rgba(25, 25, 25, 1); }
 
 .site-footer-owner {
@@ -338,4 +336,78 @@ a {
 
 .producer-logo {
   max-width: 95%;
+}
+
+.contact {
+  color: #fff;
+  text-align: center;
+  background-color: #222;
+  margin: 0;
+}
+
+.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-weight: normal;
+  color: #eee;
+  text-shadow: 0 0 3px black; }
+
+@media screen and (min-width: 64em) {
+  .contact {
+    padding: 1rem 6rem 2rem 6rem; } }
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .contact {
+    padding: 1rem 4rem 2rem 4rem; } }
+
+@media screen and (max-width: 48em) {
+  .contact {
+    padding: 2rem 1rem; } }
+
+.contact a {
+  color: white;
+  text-decoration: underline;
+}
+
+header {
+  background-color: rgba(25, 25, 25, 1);
+  margin: 0;
+  padding: 0 0.5em;
+  text-transform: uppercase;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 48em) {
+  header ul {
+    text-align: right; } }
+
+@media screen and (max-width: 48em) {
+  header ul {
+    text-align: center; } }
+
+
+header ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  transition: color 0.2s, background-color 0.2s;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: rgba(0, 112, 184, 1);
+  color: white;
+  text-decoration: none;
 }
