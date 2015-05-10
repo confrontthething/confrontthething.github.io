@@ -338,37 +338,6 @@ a {
   max-width: 95%;
 }
 
-.contact {
-  color: #fff;
-  text-align: center;
-  background-color: #222;
-  margin: 0;
-}
-
-.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6 {
-  margin-top: 1rem;
-  margin-bottom: 0rem;
-  font-weight: normal;
-  color: #eee;
-  text-shadow: 0 0 3px black; }
-
-@media screen and (min-width: 64em) {
-  .contact {
-    padding: 1rem 6rem 2rem 6rem; } }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .contact {
-    padding: 1rem 4rem 2rem 4rem; } }
-
-@media screen and (max-width: 48em) {
-  .contact {
-    padding: 2rem 1rem; } }
-
-.contact a {
-  color: white;
-  text-decoration: underline;
-}
-
 header {
   background-color: rgba(25, 25, 25, 1);
   margin: 0;
