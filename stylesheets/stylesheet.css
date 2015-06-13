@@ -57,9 +57,11 @@ a {
 .page-header {
   color: black;
   text-align: center;
+  /**
   background-image: url("../background_1.png");
-  background-position: center; }
+  background-position: center; **/}
 
+  
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 4rem 6rem 2rem 6rem; } }
